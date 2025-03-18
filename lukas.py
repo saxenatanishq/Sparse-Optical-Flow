@@ -116,5 +116,3 @@ def LK(prev_frame, new_frame, prev_green,**lk_params):
     print(f"mod = {mod_count} and condition = {epsilon_count}")
     next_points = np.array(next_points)
     return next_points
-        
-        
