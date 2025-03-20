@@ -1,4 +1,4 @@
-# SParse Optical Flow
+# Sparse Optical Flow
 
 # Implementing the Pyramidal Approach
 
