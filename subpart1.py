@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 import lukas
 
-cap = cv.VideoCapture("OPTICAL_FLOW.mp4")
+cap = cv.VideoCapture("C:\Storage\Tanishq\Python\AGV_Tasks\Task 1\Photos and Videos\OPTICAL_FLOW.mp4")
 feature_params = dict(maxCorners = 300, qualityLevel = 0.2, minDistance = 7, blockSize = 3)
 lk_params = dict(winsize = 9, maxLevel = 2, epsilon_lower = 0.01, epsilon_higher = 1000, max_count = 2, fps = cap.get(cv.CAP_PROP_FPS))
 color_line = (0,255,0)
